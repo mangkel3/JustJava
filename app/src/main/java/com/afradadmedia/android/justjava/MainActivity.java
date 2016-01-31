@@ -14,9 +14,10 @@ public class MainActivity extends AppCompatActivity {
       setContentView(R.layout.activity_main);
    }
    
-   public void submitOrder(View view) {
-       display(2);
-       displayPrice(2 * 5);
+   public void submitOrders(View view) {
+       int quantity = 5;
+       display(quantity);
+       displayPrice(quantity * 5);
    }
    
    private void display(int number) {
